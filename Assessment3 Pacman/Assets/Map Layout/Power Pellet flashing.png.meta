@@ -115,10 +115,12 @@ TextureImporter:
       name: Power Pellet flashing_0
       rect:
         serializedVersion: 2
-        x: 256
-        y: 1152
-        width: 512
-        height: 720
+
+        x: 0
+        y: 1024
+        width: 1024
+        height: 1024
+
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,10 +138,7 @@ TextureImporter:
       name: Power Pellet flashing_1
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 1152
-        width: 512
-        height: 720
+
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,27 +156,7 @@ TextureImporter:
       name: Power Pellet flashing_2
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
-        width: 512
-        height: 720
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e768ee354c2818d40800000000000000
-      internalID: 5584888792649467518
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    outline: []
-    physicsShape: []
-    bones: []
-    spriteID: 8a130bf9a42579d4da1f4d42210f4d48
+
     internalID: 0
     vertices: []
     indices: 
