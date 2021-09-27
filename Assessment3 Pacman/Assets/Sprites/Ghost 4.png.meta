@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: 4068abd1afbb4da409c24c42933688f6
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8697881205464887064
+    second: Ghost 4_0
+  - first:
+      213: 4371273412987796282
+    second: Ghost 4_1
+  - first:
+      213: -6706173092060581708
+    second: Ghost 4_2
+  - first:
+      213: 5310292566490040344
+    second: Ghost 4_3
+  - first:
+      213: 41708976537989833
+    second: Ghost 4_4
+  - first:
+      213: 3380141056854380754
+    second: Ghost 4_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +59,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -101,7 +119,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Ghost 4_0
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1036
+        width: 344
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fe74e7fd415b870800000000000000
+      internalID: 8697881205464887064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost 4_1
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1036
+        width: 360
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b3f355202e9ac30800000000000000
+      internalID: 4371273412987796282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost 4_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 524
+        width: 368
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b032758a13eee2a0800000000000000
+      internalID: -6706173092060581708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost 4_3
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 524
+        width: 364
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818490f34f2f1b940800000000000000
+      internalID: 5310292566490040344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost 4_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 20
+        width: 360
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2fd7ad71e249000800000000000000
+      internalID: 41708976537989833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost 4_5
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 20
+        width: 348
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0d488e16ca8ee20800000000000000
+      internalID: 3380141056854380754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
