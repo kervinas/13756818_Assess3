@@ -56,12 +56,12 @@ public class LevelGenerator : MonoBehaviour
           {1,0,1,0,0,2,0,1,0,0,0,2,0,1},
           {1,0,0,0,0,0,0,0,0,0,0,0,0,1},
           {1,0,0,0,0,3,2,0,3,0,0,1,1,1},
-          {1,0,1,0,0,2,0,1,3,0,1,1,1,3},
-          {1,0,0,0,0,0,0,1,3,0,0,0,0,0},
+          {1,0,1,0,0,2,0,1,0,0,1,1,1,3},
+          {1,0,0,0,0,0,0,1,0,0,0,0,0,0},
           {1,0,0,0,0,3,0,1,1,0,0,3,0,0},
           {0,0,0,0,0,1,0,1,1,0,1,2,0,1},
           {0,0,0,0,0,1,0,1,1,0,1,0,0,0},
-          {1,0,0,0,0,1,0,0,1,0,1,1,1,0},
+          {1,0,0,0,0,1,0,1,1,0,1,1,1,0},
           {2,0,0,0,0,2,0,1,2,0,1,0,0,0},
           {0,0,0,0,0,0,0,0,0,0,0,0,0,0},
           };
@@ -162,9 +162,9 @@ public class LevelGenerator : MonoBehaviour
                 }
             }
         }
-        float GridH = levelMap.GetLength(0) * tile;
-        float GridW = levelMap.GetLength(1) * tile;
-        transform.position = new Vector2(-GridW / 2 + tile / 2, GridH / 2 - tile / 2);
+        float GridHeight = levelMap.GetLength(0) * tile;
+        float GridWidth = levelMap.GetLength(1) * tile;
+        transform.position = new Vector2(-GridWidth / 2 + tile / 2, GridHeight / 2 - tile / 2);
     }
 
     private void RotateObject(GameObject obj, int row, int column, int quadrant, int [,] mapAdjustment)
